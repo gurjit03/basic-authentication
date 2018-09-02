@@ -1,0 +1,23 @@
+{  
+ "env": {
+    "browser": true,
+  	"node": true
+  },
+
+  "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+  },
+  plugins: [
+    "prettier"
+  ],
+  "extends": ["airbnb", "prettier"],
+  rules: {
+    "no-tabs": 0,
+    "indent": ["error", "tab"]
+  }, 
+  "parser": "babel-eslint"
+}
